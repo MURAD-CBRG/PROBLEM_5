@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>30</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>название сорта</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>степень прожарки</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>описание вкуса</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>молотый/ в зёрнах</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>цена</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>221</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>объём упаковки(в граммах)</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="text">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>140</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>430</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>сохранить</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="degree">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>90</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>слабая</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>средняя</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>высокая</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="kind">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>210</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>молотый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>в зёрнах</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSpinBox" name="value">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>270</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>1000000000</number>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="volume">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>330</y>
+     <width>251</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>1000000000</number>
+   </property>
+   <property name="value">
+    <number>100</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

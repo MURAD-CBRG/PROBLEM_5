@@ -1,0 +1,1 @@
+QMainWindow, QTableWidgetItem, QMessageBox, QApplication, QWidget, uic, sys, sqlite3

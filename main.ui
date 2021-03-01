@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>509</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>771</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>название сорта</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>степень обжарки</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>описание вкуса</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>молотый/ в зёрнах</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>цена</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>объём упаковки(в нраммах)</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>450</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Обновить данные</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="redact">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>450</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Редактировать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="edit">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>450</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>450</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
